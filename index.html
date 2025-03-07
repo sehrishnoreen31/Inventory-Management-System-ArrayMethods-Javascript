@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IMS</title>
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+    <main>
+        <!-- contains all button for calculations -->
+        <div class="container">
+            <div class="categories">
+                <h2>Category</h2>
+                <button onclick="displayElectronics()">Electronics</button>
+                <button onclick="displayClothing()">Clothing</button>
+                <button onclick="displayGroceries()">Groceries</button>
+                <button onclick="displayHomeGoods()">Home Goods</button>
+            </div>
+            <div class="Stocks">
+                <h2>Stock</h2>
+                <button onclick="displayElectronicsStock()">Electronics Stock</button>
+                <button onclick="displayClothingStock()">Clothing Stock</button>
+                <button onclick="displayGroceriesStock()">Groceries Stock</button>
+                <button onclick="displayHomeGoodsStock()">Home Goods Stock</button>
+            </div>
+
+            <div class="operations">
+                <h2>Operations</h2>
+                <button onclick="showPriceRange()">Price Range</button>
+                <button onclick="applyDiscounts()">Apply Discounts</button>
+                <button onclick="totalValue()">Total Value</button>
+            </div>
+        </div>
+
+        <!-- Displays output -->
+        <div class="details" id="details">Details will be displayed here!</div>
+    </main>
+
+    <script src="inventory.js"></script>
+</body>
+</html>
