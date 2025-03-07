@@ -4,4 +4,4 @@ Inventory-Management-System-ArrayMethods-Javascript
 ## Site URL:
 https://inventory-mgt-system.netlify.app/
 
-![inventory-img](https://github.com/user-attachments/assets/2fa864d9-140f-4eb1-8c7c-16b074f06cfb)
+![inventory-img](https://github.com/user-attachments/assets/258440aa-f1e9-42f6-80ab-87c8bc92c2f9)
